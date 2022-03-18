@@ -1,0 +1,110 @@
+@media (max-width:2600px) {
+    .bag-black {
+        background-color: black;
+        height: 18vw;
+    }
+}
+
+@media (max-width:2000px) {
+    .bag-black {
+        background-color: black;
+        height: 25vw;
+    }
+}
+
+@media (max-width:1500px) {
+    .bag-black {
+        background-color: black;
+        height: 40vw;
+    }
+    .p-footer {
+        padding: 0 0px;
+    }
+}
+
+@media (max-width:1200px) {
+    .bag-black {
+        background-color: black;
+        height: 50vw;
+    }
+    .p-footer {
+        padding: 0 0px;
+    }
+}
+
+@media (max-width:992px) {
+    .bg-header {
+        height: 65vw;
+    }
+    .f-s-header {
+        font-size: 20px;
+    }
+    .image-iran {
+        background-image: url(../image/map-back.svg);
+        height: 40vw;
+    }
+    .bag-black {
+        background-color: black;
+        height: 65vw;
+    }
+    .p-footer {
+        padding: 0 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .m-right-header {
+        margin-right: 1rem;
+    }
+    .margin-t-header {
+        margin-top: 5rem;
+    }
+    .image-iran {
+        background-image: url(../image/map-back.svg);
+        height: 50vw;
+    }
+    .bag-black {
+        background-color: black;
+        height: 120vw;
+    }  
+    .p-footer {
+        padding: 0 0px;
+    }   
+}
+
+@media (max-width:576px) {
+    .margin-t-header {
+        margin-top: 3rem;
+    }
+    .image-iran {
+        background-image: url(../image/map-back.svg);
+        height: 60vw;
+    }
+    .bag-black {
+        background-color: black;
+        height: 160vw;
+    } 
+    .p-footer {
+        padding: 0 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Vazir" !important;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.btn-narengi {
+    background-color: #ff5722 ;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: all 0.2s;
+}
+
+.btn-narengi:hover {
+    padding: 10px 41px;
+}
+
+.bg-header {
+    background-image: url(../image/khadamat/banner-bg.png);
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+}
+
+.margin-t-header {
+    margin-top: 8rem;
+    font-weight: 900;
+}
+
+.m-right-header {
+    margin-right: 3rem;
+}
+
+.f-s-header {
+   font-size: 25px;
+}
+
+.image-iran {
+    background-image: url(../image/map-back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 30vw;
+}
+
+.a-iran {
+    text-decoration: none;
+    color: black;
+}
+
+.a-iran:hover {
+    color:#ff5722;
+}
+
+.link-main-3 {
+    text-decoration: none;
+}
+
+.m-b-main-5 {
+    margin-bottom: 10rem;
+}
+
+.icon-size {
+    width: 30px;
+    height: 30px;
+}
+
+.bag-black {
+    background-color: black;
+    height: 35vw;
+}
+
+.footer-logo {
+    width: 8rem;
+    height: 2rem;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+
+}
+
+.link-footer:hover {
+    color: #ff5722;
+}
+
+.f-smal {
+    font-size: 14px;
+}
+
+.p-footer {
+    padding: 0 100px 0 0;
+}
+
+.logo-height {
+    height: 6rem;
+}
+
+.media-size {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.media-size:hover {
+    color: #ff5722 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

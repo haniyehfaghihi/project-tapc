@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Vazir" !important;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.btn-narengi {
+    background-color: #ff5722 ;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: all 0.2s;
+}
+
+.btn-narengi:hover {
+   transform: translate(1px, 1px);
+}
+
+.img-header {
+    background-image: url("../image/head/intersection2.jpg");
+    height: 25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: relative;   
+}
+
+.img2-header {
+    background-image:linear-gradient(rgba(4, 14, 39,0.7),rgba(4, 14, 39,0.7));
+    width: 40vw;
+    position: relative;
+    right: 8rem;
+    border-radius: 15px;
+ 
+}
+
+.phone {
+    width: 22rem;
+    height: 35rem;
+    position: relative;
+    top: 5rem;
+    right: 10rem;
+}
+
+.margin-top {
+    margin-top: 15rem;
+}
+
+.margin-bottom {
+    margin-bottom: 8rem;
+}
+
+.margin-right {
+    margin-right: 0;
+}
+
+.tasvir1 {
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;   
+}
+  
+.opacity {
+    opacity: 0.6;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+.narengi {
+   color: #ff5722;
+}
+
+.round {
+    border-radius: 15px;
+}
+
+.img-shahr {
+    background-image: url("../image/parallax.jpeg");
+    height: 32vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.p-shahr {
+    display: none;
+}
+
+.shahr:hover >p {
+    display: flex;
+}
+
+.p-btn {
+    padding: 0 50px;
+}
+
+.card {
+    border: none;
+}
+
+.card:hover {
+    box-shadow:0 0 10px 0  #b66952;
+}
+
+.width-card {
+    width: 18rem;
+}
+
+.image-iran {
+    background-image: url(../image/map-back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 25vw;
+    width: 100%;
+}
+
+.a-iran {
+    text-decoration: none;
+    color: black;
+}
+
+.a-iran:hover {
+    color:#ff5722;
+}
+
+.bag-black {
+    background-color: black;
+    height: 35vw;
+}
+
+.footer-logo {
+    width: 8rem;
+    height: 2rem;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+
+}
+
+.link-footer:hover {
+    color: #ff5722;
+}
+
+.f-smal {
+    font-size: 14px;
+}
+
+.p-footer {
+    padding: 0 100px 0 0;
+}
+
+.logo-height {
+    height: 6rem;
+}
+
+.media-size {
+   width: 100px;
+   height: 100px;
+   color: white;
+}
+
+.media-size:hover {
+    color: #ff5722 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

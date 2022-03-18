@@ -1,0 +1,186 @@
+@media (max-width:2600px) {
+    .phone {
+        width: 40rem;
+        height: 65rem;
+        position: relative;
+        top: 5rem;
+        right: 15rem;
+    }
+    .image-iran {
+        height: 20vw;
+        width: 100%;
+    }
+    .bag-black {
+        background-color: black;
+        height: 18vw;
+    }
+}
+
+@media (max-width:2000px) {
+    .phone {
+        width: 30rem;
+        height: 45rem;
+        position: relative;
+        top: 5rem;
+        right: 15rem;
+    }
+    .bag-black {
+        background-color: black;
+        height: 25vw;
+    }
+
+}
+
+@media (max-width:1500px) {
+    .img-header {
+        height: 30vw;
+    }
+    .phone {
+        width: 25rem;
+        height: 40rem;
+        position: relative;
+        top: 5rem;
+        right: 12rem;
+    }
+    .image-iran { 
+        height: 30vw;
+    }
+    .img-shahr {
+        height: 15vw;
+    }
+    .bag-black {
+        background-color: black;
+        height: 40vw;
+    }
+    .p-footer {
+        padding: 0 0px;
+    }   
+}
+
+@media (max-width:1200px) {
+    .img-header {
+        height: 40vw;
+    }
+    .phone {
+        width: 25rem;
+        height: 40rem;
+        position: relative;
+        top: 8rem;
+        right: 5rem;
+    }
+    .bag-black {
+        background-color: black;
+        height: 50vw;
+    }
+    .p-footer {
+        padding: 0 0px;
+    }
+    .img-shahr {
+        height: 20vw;
+    }
+}
+
+@media (max-width:992px) {
+    .img2-header {
+        width: 60vw;
+        right: 20vw;
+        top: 2rem;    
+    }
+    .img-header {
+        height: 62vw;
+    }
+    .margin-top {
+        margin-top: 5rem;
+    }
+    .img-shahr {
+        height: 27vw;
+    }
+    .bag-black {
+        background-color: black;
+        height: 65vw;
+    }
+    .p-footer {
+        padding: 0 0px;
+    }
+    .width-card {
+        width: 34rem;
+    }
+}
+
+@media (max-width:767px) {
+    .img2-header {
+        width: 60vw;
+        right: 22vw;
+        top: 2rem;
+    }
+    .img-header {
+        height: 100vw;
+    }  
+    .img-shahr {
+        height: 65vw;
+    }
+    .bag-black {
+        background-color: black;
+        height: 120vw;
+    }  
+    .p-footer {
+        padding: 0 0px;
+    }
+}
+
+@media (max-width:680px) {
+    .bag-black {
+        background-color: black;
+        height: 140vw;
+    }  
+    .img-shahr {
+        height: 75vw;
+    }
+    .p-footer {
+        padding: 0 0px;
+    }
+}
+
+@media (max-width:576px) {
+    .img2-header {
+        width: 60vw;
+        right: 20vw;
+        top: 2rem;
+    }
+    .img-header {
+        height: 110vw;
+    }
+    .tasvir1 {
+        margin-top: 50px;
+    }
+    .margin-top {
+        margin-top: 1rem;
+    }
+    .margin-right {
+        margin-right: 6rem;
+    }
+    .img-shahr {
+        height: 85vw;
+    }
+    .bag-black {
+        background-color: black;
+        height: 160vw;
+    }  
+    .p-footer {
+        padding: 0 0px;
+    }
+}
+
+@media (max-width:425px) {
+    .img-header {
+        height: 140vw;
+    }
+}
+
+
+
+
+
+
+
+
