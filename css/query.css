@@ -27,8 +27,8 @@
 
 @media (max-width:1500px) {
     .phone {
-        width: 25rem;
-        height: 40rem;
+        width: 20rem;
+        height: 30rem;
         position: absolute;
         top: 5rem;
         left: 4rem;
@@ -58,14 +58,14 @@
 
 @media (max-width:1200px) {
     .img-header {
-        height: 30vh;
+        height: 40vh;
     }
     .phone {
-        width: 25rem;
-        height: 40rem;
+        width: 16rem;
+        height: 25rem;
         position: absolute;
-        top: 7rem;
-        left: 2rem;
+        top: 5rem;
+        left: 0rem;
     }
     .p-footer {
         padding: 0 0px;
@@ -82,7 +82,7 @@
         top: 2rem;    
     }
     .img-header {
-        height: 30vh;
+        height: 45vh;
     }
     .margin-top {
         margin-top: 3rem;
@@ -127,7 +127,7 @@
         align-items: center;
     }
     .img-header {
-        height: 38vh;
+        height: 65vh;
     }
 }
 
@@ -152,7 +152,7 @@
 
 @media (max-width:425px) {
     .img-header {
-        height: 42vh;
+        height: 75vh;
     }
     .font-text {
         font-size: 8px;
