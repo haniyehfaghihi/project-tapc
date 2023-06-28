@@ -1,18 +1,17 @@
-@media (max-width:2600px) {
+@media (max-width:2700px) {
     .phone {
         width: 40rem;
         height: 65rem;
-        position: relative;
+        position: absolute;
         top: 5rem;
-        right: 15rem;
+        left: 15rem;
     }
     .image-iran {
         height: 20vw;
         width: 100%;
     }
-    .bag-black {
-        background-color: black;
-        height: 18vw;
+    .img-header {
+        height: 30vh;
     }
 }
 
@@ -20,27 +19,19 @@
     .phone {
         width: 30rem;
         height: 45rem;
-        position: relative;
+        position: absolute;
         top: 5rem;
-        right: 15rem;
+        left: 6rem;
     }
-    .bag-black {
-        background-color: black;
-        height: 25vw;
-    }
-
 }
 
 @media (max-width:1500px) {
-    .img-header {
-        height: 30vw;
-    }
     .phone {
         width: 25rem;
         height: 40rem;
-        position: relative;
+        position: absolute;
         top: 5rem;
-        right: 12rem;
+        left: 4rem;
     }
     .image-iran { 
         height: 30vw;
@@ -48,29 +39,33 @@
     .img-shahr {
         height: 15vw;
     }
-    .bag-black {
-        background-color: black;
-        height: 40vw;
-    }
     .p-footer {
         padding: 0 0px;
     }   
+    .font-text {
+        font-size: 14px;
+    }
+    .img-header {
+        height: 45vh;
+    }
+}
+
+@media (max-width:1300px) {
+    .font-text {
+        font-size: 12px;
+    }
 }
 
 @media (max-width:1200px) {
     .img-header {
-        height: 40vw;
+        height: 30vh;
     }
     .phone {
         width: 25rem;
         height: 40rem;
-        position: relative;
-        top: 8rem;
-        right: 5rem;
-    }
-    .bag-black {
-        background-color: black;
-        height: 50vw;
+        position: absolute;
+        top: 7rem;
+        left: 2rem;
     }
     .p-footer {
         padding: 0 0px;
@@ -82,46 +77,33 @@
 
 @media (max-width:992px) {
     .img2-header {
-        width: 60vw;
-        right: 20vw;
+        width: 80vw;
+        right: 10vw;
         top: 2rem;    
     }
     .img-header {
-        height: 62vw;
+        height: 30vh;
     }
     .margin-top {
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
     .img-shahr {
         height: 27vw;
     }
     .bag-black {
-        background-color: black;
-        height: 65vw;
+        height: 35rem;
     }
     .p-footer {
         padding: 0 0px;
     }
-    .width-card {
-        width: 34rem;
-    }
 }
 
 @media (max-width:767px) {
-    .img2-header {
-        width: 60vw;
-        right: 22vw;
-        top: 2rem;
-    }
-    .img-header {
-        height: 100vw;
-    }  
     .img-shahr {
         height: 65vw;
     }
     .bag-black {
-        background-color: black;
-        height: 120vw;
+        height: 80rem;
     }  
     .p-footer {
         padding: 0 0px;
@@ -130,8 +112,7 @@
 
 @media (max-width:680px) {
     .bag-black {
-        background-color: black;
-        height: 140vw;
+        height: 90rem;
     }  
     .img-shahr {
         height: 75vw;
@@ -139,19 +120,21 @@
     .p-footer {
         padding: 0 0px;
     }
+    .diisplay-btnn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-header {
+        height: 38vh;
+    }
 }
 
 @media (max-width:576px) {
-    .img2-header {
-        width: 60vw;
-        right: 20vw;
-        top: 2rem;
-    }
-    .img-header {
-        height: 110vw;
-    }
     .tasvir1 {
-        margin-top: 50px;
+        margin-top: 1rem;
+        margin: 30px auto 30px ;
     }
     .margin-top {
         margin-top: 1rem;
@@ -162,10 +145,6 @@
     .img-shahr {
         height: 85vw;
     }
-    .bag-black {
-        background-color: black;
-        height: 160vw;
-    }  
     .p-footer {
         padding: 0 0px;
     }
@@ -173,8 +152,12 @@
 
 @media (max-width:425px) {
     .img-header {
-        height: 140vw;
+        height: 42vh;
     }
+    .font-text {
+        font-size: 8px;
+    }
+    
 }
 
 

@@ -11,7 +11,7 @@
 
 body {
     font-family: "Vazir" !important;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .logo {
@@ -32,7 +32,7 @@ body {
 
 .img-header {
     background-image: url("../image/head/intersection2.jpg");
-    height: 25vw;
+    height: 15vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,23 +42,22 @@ body {
 
 .img2-header {
     background-image:linear-gradient(rgba(4, 14, 39,0.7),rgba(4, 14, 39,0.7));
-    width: 40vw;
-    position: relative;
+    width: 45rem;
+    position: absolute;
     right: 8rem;
     border-radius: 15px;
- 
 }
 
 .phone {
     width: 22rem;
     height: 35rem;
-    position: relative;
-    top: 5rem;
-    right: 10rem;
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
 }
 
 .margin-top {
-    margin-top: 15rem;
+    margin-top: 9rem;
 }
 
 .margin-bottom {
@@ -70,8 +69,8 @@ body {
 }
 
 .tasvir1 {
-    width: 90px;
-    height: 50px;
+    width: 7rem;
+    height: 4rem;
     margin-left: 30px;   
 }
   
@@ -121,9 +120,6 @@ body {
     box-shadow:0 0 10px 0  #b66952;
 }
 
-.width-card {
-    width: 18rem;
-}
 
 .image-iran {
     background-image: url(../image/map-back.svg);
@@ -146,7 +142,7 @@ body {
 
 .bag-black {
     background-color: black;
-    height: 35vw;
+    height: 30rem;
 }
 
 .footer-logo {
@@ -186,7 +182,18 @@ body {
     color: #ff5722 ;
 }
 
+.font-text {
+    font-size: 16px;
+}
 
+.marginxAuto {
+    margin: auto;
+}
+
+.diisplay-btnn {
+    display: flex;
+    justify-content: center;
+}
 
 
 

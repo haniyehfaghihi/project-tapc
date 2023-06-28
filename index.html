@@ -13,7 +13,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container">
+        <div class="container d-flex justify-content-between">
           <a class="navbar-brand ms-5" href="#">
             <img src="image/tapsi/download.png " class="logo img-fluid">
           </a>
@@ -41,18 +41,23 @@
       </nav> 
        
       <section>            
-        <div class="row img-header">   
+        <div class="img-header">   
+
               <div class="col col-md-6">
-                <div class="row img2-header justify-content-center mb-4">
-                  <h2 class="text-white mb-4 mt-2 text-center">تپسی</h2>
+                <div class=" img2-header justify-content-center mb-4">
+                  <h2 class="text-white mb-4 pt-3 text-center">تپسی</h2>
                   <h4 class="text-white mb-5 text-center">اپلیکیشن درخواست خودرو و پیک</h4>
-                  <button type="button" class="btn btn-light btn-md-lg col-6 col-lg-5 ms-1 mb-2 p-3 round"><i class="bi bi-arrow-down-circle pe-2"></i>دانلود اپلیکیشن مسافران</button>
-                  <button type="button" class="btn btn-light btn-md-lg col-6 col-lg-5 mb-2 ms-1 ms-lg-2 p-3 round"><i class="bi bi-arrow-down-circle pe-2"></i>وب اپلیکیشن مسافران</button>
-                  <button type="button" class="btn btn-outline-light btn-md-lg col-6 col-lg-5 ms-1 mb-2 mb-lg-5 p-3 round"><i class="bi bi-arrow-down-circle pe-2"></i>دانلود اپلیکیشن رانندگان</button>
-                  <button type="button" class="btn btn-outline-light btn-md-lg col-6 col-lg-5 ms-1 ms-lg-2 mb-5 p-3 round"><i class="bi bi-arrow-down-circle pe-2"></i>ثبت نام راننده</button>  
+                  <div class="px-5 diisplay-btnn">
+                    <button type="button" class="btn btn-light btn-md-lg col-6 col-lg-5 ms-1 mb-2 p-3 round font-text"><i class="bi bi-arrow-down-circle pe-2"></i>دانلود اپلیکیشن مسافران</button>
+                    <button type="button" class="btn btn-light btn-md-lg col-6 col-lg-5 mb-2 ms-1 ms-lg-2 p-3 round font-text"><i class="bi bi-arrow-down-circle pe-2"></i>وب اپلیکیشن مسافران</button>
+                  </div>
+                  <div class="diisplay-btnn px-5">
+                    <button type="button" class="btn btn-outline-light btn-md-lg col-6 col-lg-5 ms-1 mb-3 p-3 round font-text"><i class="bi bi-arrow-down-circle pe-2"></i>دانلود اپلیکیشن رانندگان</button>
+                    <button type="button" class="btn btn-outline-light btn-md-lg col-6 col-lg-5 ms-1 mb-3 p-3 round font-text"><i class="bi bi-arrow-down-circle pe-2"></i>ثبت نام راننده</button>  
+                  </div>  
                 </div>
-                      
               </div>
+
               <div class="col-md-6 d-none d-lg-flex">  
                 <img src="image/mockup-phone.webp" class="img-fluid phone" alt="اپلیکیشن تلفن" title="اپلیکیشن تلفن">
               </div>      
@@ -65,16 +70,16 @@
     <main>
       <section class="main-1">
         <div class="container">
-          <div class="row margin-top">
+          <div class="margin-top">
             <div class="col">
-              <h2 class="ms-3 mb-sm-5">سرویس‌های تپسی</h2>
+              <h2 class="ms-3 mb-1">سرویس‌های تپسی</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col d-flex flex-wrap ">
+          <div >
+            <div class="col d-flex flex-wrap">
               <div class="tasvir1 opacity mb-sm-5  mb-lg-0">
                 <img src="image/cc-classic.png" class="tasvir1">
-                <h4 class="text-muted fs-5">تپسی کلاسیک</h4>
+                <h4 class="text-muted fs-5"> کلاسیک</h4>
               </div>
               <div class="tasvir1 opacity mb-sm-5 mb-lg-0">
                 <img src="image/cc-motopeyk.png" class="tasvir1">
@@ -306,8 +311,8 @@
       
       <section class="main-3">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6 p-5">
+          <div class="row align-items-center marginxAuto">
+            <div class="col col-md-6 p-5">
               <h2 class="font-weight-bold mb-4">خدمات تپسی ویژه کسب‌وکارها</h2>
               <p class="text-justify text-right">پنل سازمانی تپسی، یک سامانه تحت وب است که به 
                 سادگی امکان درخواست هم‌زمان تعداد نامحدودی خودرو و
@@ -315,13 +320,14 @@
                  و با استفاده از آن می‌توانید ماموریت های درون‌شهری و
                   ارسال کالاهای خود را به سادگی مدیریت کنید.
               </p>
-              <a href="#" class="nav-link narengi">اطلاعات بیشتر سرویس سازمانی</a><br>
+              <a href="#" class="nav-link narengi">اطلاعات بیشتر سرویس سازمانی</a>
+              <br>
               <button class="btn btn-narengi py-3 round">ورود و ثبت نام پنل سازمانی </button>
             </div>
-            <div class="col-md-6">
-              <img src="image/i-mac.webp" class="img-fluid ms-5">
+            <div class="col-md-6 ">
+              <img src="image/i-mac.webp" class="img-fluid">
             </div>
-        </div>
+          </div>
         </div>
       </section>
 
@@ -333,9 +339,9 @@
 
       <section class="main-4">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row align-items-center marginxAuto">
             <div class="col-md-6">
-              <img src="image/macbook.webp" class="img-fluid me-5">
+              <img src="image/macbook.webp" class="img-fluid">
             </div>
             <div class="col-md-6 p-5">
               <h1 class="font-weight-bold mb-4">خرید کد اعتبار تپسی</h1>
@@ -449,14 +455,10 @@
 
       <section class="main-7">
         <div class="container">
-          <div class="row">
-            <div class="col">
-               <h1 class="mb-5 text-center">تازه‌ترین‌های وبلاگ تپسی</h1>
-            </div>
-          </div>
+          <h1 class="mb-5 text-center">تازه‌ترین‌های وبلاگ تپسی</h1>
           <div class="row card-group">                       
               <div class="col col-lg-4">
-                <div class="card width-card">
+                <div class="card">
                   <img src="image/usage2-scaled.jpg" class="card-img-top p-3" alt="سوخت">
                   <div class="card-body">
                     <h5 class="card-title text-muted">از مصرف سوخت خودروهای مختلف چه می دانید؟</h5>
@@ -467,7 +469,7 @@
                 </div>
               </div>  
               <div class="col col-lg-4">
-                  <div class="card width-card">
+                  <div class="card">
                     <img src="image/cheapest-smartphones.jpg" class="card-img-top p-3" alt="گوشی">
                     <div class="card-body">
                       <h5 class="card-title text-muted">آشنایی با ارزان‌ترین گوشی‌های هوشمند برای کار و تحصیل</h5>
@@ -479,7 +481,7 @@
                   </div>
               </div>
               <div class="col col-lg-4">  
-                  <div class="card width-card">
+                  <div class="card">
                     <img src="image/accessibility2.jpg" class="card-img-top p-3" alt="مسیولیت پذیری">
                     <div class="card-body">
                       <h5 class="card-title text-muted">دسترس‌پذیری تپسی برای شهروندان دارای معلولیت</h5>
@@ -506,11 +508,9 @@
       <section class="main-8">
         <div class="container-luid d-none d-lg-flex">
           <div class="row image-iran">
-            <div class="col">              
-                <h1 class="px-5 mx-5">تپسی در ایران</h1>
-            </div>          
-            <div class="row px-5 mx-5">
-                <div class="shahr col-2">
+            <h1 class="text-center">تپسی در ایران</h1>        
+            <div class="row">
+                <div class="shahr col-2 ms-3">
                   <a href="#" class="a-iran">
                     <p>تهران</p>
                     <p>Tehran</p>
@@ -540,7 +540,7 @@
                     <p>shiraz</p>
                   </a>                  
                 </div>
-                <div class="shahr col-2">
+                <div class="shahr col-2 ms-3">
                   <a href="#" class="a-iran">
                     <p>ارومیه</p>
                     <p>Urmia</p>
@@ -570,7 +570,7 @@
                     <p>Tabriz</p>
                   </a>                 
                 </div>
-                <div class="shahr col-2">
+                <div class="shahr col-2 ms-3">
                   <a href="#" class="a-iran">
                     <p>ساری</p>
                     <p>Sari</p>
@@ -600,7 +600,7 @@
                     <p>Ahvaz</p>
                   </a>                  
                 </div>
-                <div class="shahr col-2">
+                <div class="shahr col-2 ms-3">
                   <a href="#" class="a-iran">
                     <p>بابل</p>
                     <p>Babol</p>
@@ -638,28 +638,28 @@
                 این وبسایت متعلق به تپسی است.
               </p>
             </div>
-              <div class="col-6 col-md-2 col-xxl-1 mt-5 pe-1">
+              <div class="col-6 col-md-2 col-xxl-1 mt-5 pe-1 ms-5 ms-md-0">
                 <h5 class="text-light mb-4">تپسی</h5>
                 <a href="#" class="link-footer f-smal">وبلاگ تپسی</a><br>
                 <a href="#" class="link-footer f-smal">فرصت شغلی</a><br>
                 <a href="#" class="link-footer f-smal">تماس با ما</a><br>
                 <a href="#" class="link-footer f-smal">لوگو و هویت سازمانی</a><br>
               </div>
-              <div class="col-6 col-md-2 col-xxl-1 mt-5 p-0">
+              <div class="col-6 col-md-2 col-xxl-1 mt-5 p-0 ms-5 ms-md-0">
                 <h5 class="text-light mb-4">مسافران</h5>
                 <a href="#" class="link-footer f-smal">دانلود اپ مسافر</a><br>
                 <a href="#" class="link-footer f-smal">نسخه وب تپسی</a><br>
                 <a href="#" class="link-footer f-smal">پرسش‌های متداول مسافران</a><br>
                 <a href="#" class="link-footer f-smal">باشگاه مشتریان</a><br>
               </div>
-              <div class="col-6 col-md-2 col-xxl-1 mt-5 mb-5 p-0">
+              <div class="col-6 col-md-2 col-xxl-1 mt-5 mb-5 p-0 ms-5 ms-md-0">
                 <h5 class="text-light mb-4">رانندگان</h5>
                 <a href="#" class="link-footer f-smal">ثبت نام راننده تاکسی اینترنتی</a><br>
                 <a href="#" class="link-footer f-smal">دانلود اپ سفیر</a><br>
                 <a href="#" class="link-footer f-smal">پرسش‌های متداول سفیران</a><br>
                 <a href="#" class="link-footer f-smal">باشگاه سفیران</a><br>
               </div>
-              <div class="col-6 col-md-2 col-xxl-1 mt-5 mb-5 p-0">
+              <div class="col-6 col-md-2 col-xxl-1 mt-5 mb-5 p-0 ms-5 ms-md-0">
                 <h5 class="text-light mb-4">کسب و کارها</h5>
                 <a href="#" class="link-footer f-smal">پنل سازمانی تپسی</a><br>
                 <a href="#" class="link-footer f-smal">خرید کد اعتبار و تخفیف</a><br>
