@@ -112,7 +112,7 @@
 
 @media (max-width:680px) {
     .bag-black {
-        height: 90rem;
+        height: 80rem;
     }  
     .img-shahr {
         height: 75vw;
@@ -157,7 +157,9 @@
     .font-text {
         font-size: 8px;
     }
-    
+    .bag-black {
+        height: 85rem;
+    }  
 }
 
 

@@ -11,7 +11,6 @@
 
 body {
     font-family: "Vazir" !important;
-    overflow-x: hidden;
 }
 
 .logo {
@@ -32,16 +31,17 @@ body {
 
 .bg-header {
     background-image: url(../image/khadamat/banner-bg.png);
-    height: 40vw;
+    height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     object-fit: cover;
     position: relative;
+    margin-top: 0px;
 }
 
 .margin-t-header {
-    margin-top: 8rem;
+    margin-top: 3rem;
     font-weight: 900;
 }
 
@@ -59,7 +59,8 @@ body {
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    height: 30vw;
+    height: 40vh;
+    width: 100vw;
 }
 
 .a-iran {
@@ -75,18 +76,15 @@ body {
     text-decoration: none;
 }
 
-.m-b-main-5 {
-    margin-bottom: 10rem;
-}
 
 .icon-size {
     width: 30px;
     height: 30px;
 }
 
-.bag-black {
+.bag-black2 {
     background-color: black;
-    height: 35vw;
+    height: 30rem;
 }
 
 .footer-logo {
