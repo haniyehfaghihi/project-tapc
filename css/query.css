@@ -133,8 +133,7 @@
 
 @media (max-width:576px) {
     .tasvir1 {
-        margin-top: 1rem;
-        margin: 30px auto 30px ;
+        margin: 30px auto;
     }
     .margin-top {
         margin-top: 1rem;
@@ -143,7 +142,7 @@
         margin-right: 6rem;
     }
     .img-shahr {
-        height: 85vw;
+        height: 65vh;
     }
     .p-footer {
         padding: 0 0px;

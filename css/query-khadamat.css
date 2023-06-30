@@ -61,6 +61,12 @@
     } 
 }
 
+@media (max-width:450px) {
+    .image-iran {
+        height: 70vh;
+    }
+}
+
 
 @media (max-width:320px) {
     .bag-black {
@@ -68,6 +74,9 @@
     } 
     .bg-header {
         height: 22rem;
+    }
+    .image-iran {
+        height: 80vh;
     }
 }
 
